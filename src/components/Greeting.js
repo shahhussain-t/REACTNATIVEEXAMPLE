@@ -20,12 +20,12 @@ const Greeting = () => {
     <View>
      <TextInput
      style={styles.textInput}
-     placeholder='Write your message...'
+     placeholder='Enter your name...'
     
      onChangeText={setMessage}
      />
 
-     <Text>hello,{message}</Text>
+     <Text>welcome,{message}</Text>
     </View>
 
     </SafeAreaView>
